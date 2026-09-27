@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact — AURELIS</title>
+
+    <meta name="description"
+        content="Start a project with AURELIS. Build intelligent systems, digital experiences and future-ready products.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+
+    <div class="noise"></div>
+
+    <header class="navbar">
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+                AURELIS<span>.</span>
+            </a>
+
+            <nav class="nav-links">
+                <a href="index.html">Work</a>
+                <a href="services.html">Services</a>
+                <a href="studio.html">Studio</a>
+                <a href="process.html">Process</a>
+                <a href="contact.html" class="active">Contact</a>
+            </nav>
+
+            <a href="contact.html" class="nav-button">
+                Start a Project
+            </a>
+
+            <button class="menu-button" id="menuButton" aria-label="Open menu">
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- HERO -->
+
+        <section class="contact-hero">
+
+            <div class="contact-grid"></div>
+
+            <div class="contact-glow contact-glow-purple"></div>
+            <div class="contact-glow contact-glow-cyan"></div>
+
+            <div class="container contact-hero-container">
+
+                <div class="contact-meta">
+                    <span>05 / CONTACT</span>
+                    <span>LET'S CREATE</span>
+                </div>
+
+                <div class="contact-hero-content">
+
+                    <div class="eyebrow">
+                        <span class="status-dot"></span>
+                        START A CONVERSATION
+                    </div>
+
+                    <h1>
+                        Let's build
+                        <span>something</span>
+                        remarkable.
+                    </h1>
+
+                    <p>
+                        Have an idea, a challenge or a product that needs
+                        to move forward? Tell us where you want to go.
+                    </p>
+
+                </div>
+
+                <div class="contact-scroll">
+
+                    <span>SCROLL TO CONNECT</span>
+
+                    <div class="contact-scroll-line">
+                        <span></span>
+                    </div>
+
+                    <span>01 / 01</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT AREA -->
+
+        <section class="contact-section">
+
+            <div class="container contact-layout">
+
+                <div class="contact-info">
+
+                    <div class="contact-section-label">
+                        <span>01</span>
+                        <span>YOUR PROJECT</span>
+                    </div>
+
+                    <h2>
+                        Tell us
+                        <span>what's next.</span>
+                    </h2>
+
+                    <p>
+                        Give us a little context. We'll take it from there.
+                        No unnecessary forms. No complicated process.
+                    </p>
+
+
+                    <div class="contact-details">
+
+                        <a href="mailto:hello@aurelis.studio" class="contact-detail">
+
+                            <span class="detail-label">
+                                EMAIL
+                            </span>
+
+                            <strong>
+                                hello@aurelis.studio
+                            </strong>
+
+                            <span class="detail-arrow">↗</span>
+
+                        </a>
+
+
+                        <div class="contact-detail">
+
+                            <span class="detail-label">
+                                AVAILABILITY
+                            </span>
+
+                            <strong>
+                                Select projects · 2026
+                            </strong>
+
+                            <span class="availability-dot"></span>
+
+                        </div>
+
+
+                        <div class="contact-detail">
+
+                            <span class="detail-label">
+                                RESPONSE
+                            </span>
+
+                            <strong>
+                                Usually within 1–2 days
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FORM -->
+
+                <div class="contact-form-wrapper">
+
+                    <form id="contactForm" class="contact-form">
+
+                        <div class="form-progress">
+
+                            <span>PROJECT INQUIRY</span>
+
+                            <span id="formStep">
+                                01 / 04
+                            </span>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="name">
+                                YOUR NAME
+                            </label>
+
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="email">
+                                EMAIL ADDRESS
+                            </label>
+
+                            <input type="email" id="email" name="email" placeholder="john@company.com" required>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label>
+                                WHAT DO YOU NEED?
+                            </label>
+
+                            <div class="service-options">
+
+                                <button type="button" class="service-option" data-value="AI Systems">
+                                    AI Systems
+                                </button>
+
+                                <button type="button" class="service-option" data-value="Web Experience">
+                                    Web Experience
+                                </button>
+
+                                <button type="button" class="service-option" data-value="Automation">
+                                    Automation
+                                </button>
+
+                                <button type="button" class="service-option" data-value="Digital Product">
+                                    Digital Product
+                                </button>
+
+                            </div>
+
+                            <input type="hidden" id="service" name="service">
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="message">
+                                TELL US ABOUT IT
+                            </label>
+
+                            <textarea id="message" name="message" rows="5"
+                                placeholder="Tell us about your idea, challenge or project..." required></textarea>
+
+                        </div>
+
+
+                        <button type="submit" class="submit-button">
+
+                            <span>Send Inquiry</span>
+
+                            <span class="submit-arrow">→</span>
+
+                        </button>
+
+
+                        <p class="form-note">
+                            By submitting this form, you agree to be
+                            contacted regarding your project.
+                        </p>
+
+                    </form>
+
+
+                    <div id="formSuccess" class="form-success">
+
+                        <div class="success-orb">
+                            <span>✓</span>
+                        </div>
+
+                        <span class="eyebrow">
+                            MESSAGE RECEIVED
+                        </span>
+
+                        <h3>
+                            You're on
+                            <span>our radar.</span>
+                        </h3>
+
+                        <p>
+                            Thanks for reaching out. We'll review your
+                            project and get back to you shortly.
+                        </p>
+
+                        <button id="resetForm" class="button button-outline">
+                            Send Another
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- BIG STATEMENT -->
+
+        <section class="contact-statement">
+
+            <div class="container">
+
+                <div class="statement-frame">
+
+                    <div class="statement-orbit statement-orbit-one"></div>
+                    <div class="statement-orbit statement-orbit-two"></div>
+
+                    <div class="statement-content">
+
+                        <span>
+                            AURELIS / 2026
+                        </span>
+
+                        <h2>
+                            The next
+                            <span>chapter</span>
+                            starts here.
+                        </h2>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FOOTER CTA -->
+
+        <section class="contact-final">
+
+            <div class="container">
+
+                <div class="contact-final-content">
+
+                    <span class="eyebrow">
+                        HAVE A DIFFERENT QUESTION?
+                    </span>
+
+                    <a href="mailto:hello@aurelis.studio">
+                        hello@aurelis.studio
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <div class="footer-brand">
+
+                    <a href="index.html" class="logo">
+                        AURELIS<span>.</span>
+                    </a>
+
+                    <p>
+                        Digital experiences.
+                        Intelligent systems.
+                        Future technology.
+                    </p>
+
+                </div>
+
+
+                <div class="footer-column">
+
+                    <span class="footer-title">
+                        EXPLORE
+                    </span>
+
+                    <a href="index.html">Work</a>
+                    <a href="services.html">Services</a>
+                    <a href="studio.html">Studio</a>
+                    <a href="process.html">Process</a>
+
+                </div>
+
+
+                <div class="footer-column">
+
+                    <span class="footer-title">
+                        CONNECT
+                    </span>
+
+                    <a href="contact.html">Contact</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">X / Twitter</a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <span>
+                    © 2026 AURELIS. ALL RIGHTS RESERVED.
+                </span>
+
+                <span>
+                    BUILT FOR WHAT'S NEXT.
+                </span>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/contact.js"></script>
+
+</body>
+
+</html>
